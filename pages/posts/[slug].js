@@ -1,5 +1,5 @@
 import PageLayout from "components/PageLayout";
-import BlogHeader from 'components/BlogHeader';
+import BlogHeader from 'components/Blogheader';
 import PostContent from 'components/PostContent';
 import { getPostBySlug, getAllPosts } from "lib/api";
 import { Row, Col } from 'react-bootstrap';
