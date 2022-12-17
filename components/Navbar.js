@@ -5,7 +5,7 @@ const BlogNavbar = () => {
     <Navbar className="rf-navbar rf-nav-base" bg="transparent" expand="lg">
       <Navbar.Brand className="rf-navbar-brand">
         <Link href = "/">
-          <a>Sagnik</a>
+          <a>Quaternion Universe</a>
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
