@@ -1,4 +1,3 @@
-import { urlFor } from "lib/api";
 const getDate = (date) => {
     return new Date(date).toString().split(" ").slice(1,5).join(" ");
 }
