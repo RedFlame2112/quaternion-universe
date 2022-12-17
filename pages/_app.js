@@ -8,9 +8,15 @@ import 'highlight.js/styles/nord.css';
 import 'styles/globals.css';
 import 'styles/index.scss';
 import 'katex/dist/katex.min.css';
+import { Analytics } from '@vercel/analytics/react';
 
 const MyApp = ({ Component, pageProps }) => {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Component {...pageProps} />
+      <Analytics />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;
