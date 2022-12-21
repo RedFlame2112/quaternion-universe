@@ -5,7 +5,7 @@ const Resume = () => {
       <a href = "https://docs.google.com/document/d/1K8uWIxN112sgh31smBr5YJpWMkJBbgUoKTf5PtNsRXQ/export?format=pdf">
         <h1>Click here to download my resume!</h1>
       </a>
-      <h2>Last Updated: 12/17/2022</h2>
+      <h2>Last Updated: 12/20/2022</h2>
     </PageLayout>
   );
 }
